@@ -4,7 +4,7 @@ using namespace std;
 class walkRoute:public IRouteStrategy{
     public:
     void calculateRoute() override{
-        cout<<"calculating walking path distance and time"<<endl;
+        cout<<"calculating walking path distance and time= 5km"<<endl;
 
     }
 

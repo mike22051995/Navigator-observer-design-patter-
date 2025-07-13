@@ -7,7 +7,7 @@ int main(){
     CarRoute car;
 
     walkRoute walk;
-    Navigator navigate(&car);
+    Navigator navigate(&walk);
     navigate.Navigate();
     return 0;
 
